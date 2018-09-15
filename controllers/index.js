@@ -1,6 +1,6 @@
-module.exports = (app) => {
+module.exports = (app, jwt) => {
 
     app.api = {};
 
-    require('./users')(app);
+    require('./users')(app, jwt);
 }
