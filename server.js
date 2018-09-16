@@ -7,6 +7,7 @@ const app = express();
 
 const port = process.env.PORT || 8000;
 app.use(bodyParser.urlencoded({ extended: true }));
+app.use(bodyParser.json());
 
 // Import all routes in the main file
 require('./constants')(app);
