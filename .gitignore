@@ -1,9 +1,3 @@
 node_modules
 .idea
-public-jquery
-public/node_modules
-/newrelic_agent.log
-newrelic_agent.log
-yarn.lock
-.vscode/*
-npm-debug.log
+

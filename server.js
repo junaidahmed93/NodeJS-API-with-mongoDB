@@ -3,10 +3,9 @@ const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
 const passport = require('passport');
 const jwt = require('jsonwebtoken');
-// const bcrypt = require('bcrypt');
 const app = express();
 
-const port = 8000;
+const port = process.env.PORT || 9000;
 app.use(bodyParser.urlencoded({ extended: true }));
 
 // Import all routes in the main file
